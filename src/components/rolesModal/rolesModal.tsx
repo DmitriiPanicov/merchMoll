@@ -16,7 +16,6 @@ import Blackout from "../custom/blackout/blackout";
 
 import { ReactComponent as DirectionIcon } from "../../assets/icons/direction.svg";
 import { ReactComponent as QuestionIcon } from "../../assets/icons/question.svg";
-import { ReactComponent as DeclineIcon } from "../../assets/icons/decline.svg";
 import { ReactComponent as PlusIcon } from "../../assets/icons/plus.svg";
 import { ReactComponent as EditIcon } from "../../assets/icons/edit.svg";
 import Close from "../../assets/icons/close.svg";

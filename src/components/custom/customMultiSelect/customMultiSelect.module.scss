@@ -1,0 +1,165 @@
+.select__wrapper {
+  height: 40px;
+  position: relative;
+}
+
+.input__block {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  position: relative;
+  width: 93%;
+}
+
+.input {
+  padding: 0 20px 0 5px !important;
+}
+
+.icon {
+  height: 15px;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translate(-50%, -50%) !important;
+  width: 15px;
+}
+
+.modal {
+  background: #ffff;
+  border: 1px solid grey;
+  border-radius: 8px;
+  bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  max-width: 300px;
+  min-width: 180px;
+  padding: 10px;
+  position: absolute;
+  transform: translate(0%, 100%);
+  width: fit-content;
+}
+
+.search {
+  width: 100% !important;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.btn {
+  background: none;
+  border: 1px solid grey;
+  cursor: pointer;
+  font-size: 11px;
+  height: 30px;
+  width: 50%;
+
+  &:first-child {
+    border-radius: 4px 0 0 4px;
+    border-right: none !important;
+  }
+
+  &:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+.list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 60px;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.list::-webkit-scrollbar {
+  background: none;
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: none;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border: 0px solid rgba(24, 24, 24, 0.795);
+  border-radius: 8px;
+}
+
+.elem {
+  border-bottom: 1px solid grey;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  text-transform: none;
+  word-wrap: break-word;
+  width: 100%;
+
+  &:last-child {
+    border-bottom: none !important;
+  }
+
+  &:hover {
+    background: var(--btns-bg-color);
+  }
+
+  &:active {
+    background: var(--main-color);
+    color: var(--active-tab-color);
+  }
+}
+
+.active__elem {
+  background: var(--main-color);
+  border-bottom: 1px solid grey;
+  color: var(--active-tab-color);
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+
+  &:hover {
+    background: var(--main-color);
+    color: var(--active-tab-color);
+  }
+}
+
+.accept__btn {
+  background: var(--main-color);
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: var(--active-tab-color);
+  height: 25px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.custom__floating_placeholer {
+  color: var(--main-text-color);
+  font-size: 11px;
+  font-weight: 600;
+  left: 9px;
+  opacity: 0;
+  position: absolute;
+  text-transform: none;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: -10;
+}
+
+.active__floating_placeholder {
+  opacity: 1;
+  transform: translateY(-120%);
+  z-index: 10;
+}

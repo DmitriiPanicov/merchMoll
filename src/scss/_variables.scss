@@ -1,0 +1,153 @@
+:root[data-theme="purple"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #8183a2;
+  --main-text-color: #7048e3;
+  --menu-item-border-color: rgba(186, 187, 204, 0.32);
+  --table-head-bg-color: rgb(240, 238, 251);
+  --background-color: rgba(186, 187, 204, 0.18);
+  --btns-bg-color: rgba(223, 214, 249, 0.5);
+  --table-border-color: rgba(201, 185, 247, 0.7);
+  --avatar-color: rgba(223, 214, 249, 0.24);
+  --main-color: #7048e3;
+  --hover-edit-cell-color: rgba(201, 185, 247, 0.1);
+}
+
+:root[data-theme="lightBlue"] {
+  --active-tab-color: #000000;
+  --table-head-text-color: #8183a2;
+  --main-text-color: #555969;
+  --menu-item-border-color: rgba(142, 216, 248, 0.32);
+  --table-head-bg-color: rgb(200, 235, 252);
+  --background-color: rgba(142, 216, 248, 0.18);
+  --btns-bg-color: rgba(142, 216, 248, 0.5);
+  --table-border-color: rgba(142, 216, 248, 0.7);
+  --avatar-color: rgba(142, 216, 248, 0.24);
+  --main-color: #76cded;
+  --hover-edit-cell-color: rgba(142, 216, 248, 0.1);
+}
+
+:root[data-theme="blue"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #5e607b;
+  --main-text-color: #303d73;
+  --table-head-bg-color: rgb(153, 215, 247);
+  --menu-item-border-color: rgba(0, 174, 239, 0.32);
+  --background-color: rgba(0, 174, 239, 0.18);
+  --btns-bg-color: rgba(0, 174, 239, 0.5);
+  --table-border-color: rgba(97, 198, 235, 0.7);
+  --avatar-color: rgba(0, 174, 239, 0.24);
+  --main-color: #00aeef;
+  --hover-edit-cell-color: rgba(97, 198, 235, 0.1);
+}
+
+:root[data-theme="darkBlue"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #4f4f5c;
+  --main-text-color: #0a1e1e;
+  --table-head-bg-color: rgb(144, 190, 216);
+  --menu-item-border-color: rgba(0, 125, 175, 0.32);
+  --background-color: rgba(0, 125, 175, 0.18);
+  --btns-bg-color: rgba(0, 125, 175, 0.5);
+  --table-border-color: rgba(97, 178, 210, 0.7);
+  --avatar-color: rgba(82, 167, 200, 0.24);
+  --main-color: #007daf;
+  --hover-edit-cell-color: rgba(97, 178, 210, 0.1);
+}
+
+:root[data-theme="light"] {
+  --active-tab-color: #000000;
+  --table-head-text-color: #8183a2;
+  --main-text-color: #606565;
+  --table-head-bg-color: rgb(238, 238, 238);
+  --menu-item-border-color: rgba(221, 221, 221, 0.32);
+  --background-color: rgba(221, 221, 221, 0.18);
+  --btns-bg-color: rgba(221, 221, 221, 0.5);
+  --table-border-color: rgba(221, 221, 221, 0.7);
+  --avatar-color: rgba(221, 221, 221, 0.24);
+  --main-color: #dddddd;
+  --hover-edit-cell-color: rgba(221, 221, 221, 0.1);
+}
+
+:root[data-theme="dark"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #eaebfa;
+  --main-text-color: #ffffff;
+  --table-head-bg-color: rgb(158, 158, 158);
+  --menu-item-border-color: rgba(61, 61, 61, 0.32);
+  --background-color: rgba(61, 61, 61, 0.18);
+  --btns-bg-color: rgba(61, 61, 61, 0.5);
+  --table-border-color: rgba(61, 61, 61, 0.5);
+  --avatar-color: rgba(61, 61, 61, 0.24);
+  --main-color: #3d3d3d;
+  --hover-edit-cell-color: rgba(61, 61, 61, 0.1);
+}
+
+:root[data-theme="black"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #f5f5f9;
+  --main-text-color: #ffffff;
+  --table-head-bg-color: rgb(127, 127, 127);
+  --menu-item-border-color: rgba(0, 0, 0, 0.32);
+  --background-color: rgba(0, 0, 0, 0.18);
+  --btns-bg-color: rgba(0, 0, 0, 0.5);
+  --table-border-color: rgba(0, 0, 0, 0.3);
+  --avatar-color: rgba(0, 0, 0, 0.24);
+  --main-color: #000000;
+  --hover-edit-cell-color: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="yellow"] {
+  --active-tab-color: #000000;
+  --table-head-text-color: #8183a2;
+  --main-text-color: #646262;
+  --table-head-bg-color: rgb(255, 249, 155);
+  --menu-item-border-color: rgba(255, 242, 0, 0.32);
+  --background-color: rgba(255, 242, 0, 0.18);
+  --btns-bg-color: rgba(255, 242, 0, 0.5);
+  --table-border-color: rgba(72, 72, 68, 0.3);
+  --avatar-color: rgba(255, 242, 0, 0.24);
+  --main-color: #fff200;
+  --hover-edit-cell-color: rgba(72, 72, 68, 0.1);
+}
+
+:root[data-theme="red"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #595a66;
+  --main-text-color: #ffffff;
+  --table-head-bg-color: rgb(237, 156, 166);
+  --menu-item-border-color: rgba(204, 21, 56, 0.32);
+  --background-color: rgba(204, 21, 56, 0.18);
+  --btns-bg-color: rgba(204, 21, 56, 0.5);
+  --table-border-color: rgba(204, 21, 56, 0.5);
+  --avatar-color: rgba(204, 21, 56, 0.24);
+  --main-color: #cc1538;
+  --hover-edit-cell-color: rgba(204, 21, 56, 0.1);
+}
+
+:root[data-theme="orange"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #8183a2;
+  --main-text-color: #4f4d4d;
+  --table-head-bg-color: rgb(253, 207, 148);
+  --menu-item-border-color: rgba(249, 159, 0, 0.32);
+  --background-color: rgba(249, 159, 0, 0.18);
+  --btns-bg-color: rgba(249, 159, 0, 0.5);
+  --table-border-color: rgba(249, 159, 0, 0.5);
+  --avatar-color: rgba(249, 159, 0, 0.24);
+  --main-color: #f99f00;
+  --hover-edit-cell-color: rgba(249, 159, 0, 0.1);
+}
+
+:root[data-theme="green"] {
+  --active-tab-color: #ffffff;
+  --table-head-text-color: #696b83;
+  --main-text-color: #4f4d4d;
+  --table-head-bg-color: rgb(160, 212, 203);
+  --menu-item-border-color: rgba(51, 170, 150, 0.32);
+  --background-color: rgba(51, 170, 150, 0.18);
+  --btns-bg-color: rgba(51, 170, 150, 0.5);
+  --table-border-color: rgba(51, 170, 150, 0.5);
+  --avatar-color: rgba(51, 170, 150, 0.24);
+  --main-color: #33aa96;
+  --hover-edit-cell-color: rgba(51, 170, 150, 0.1);
+}

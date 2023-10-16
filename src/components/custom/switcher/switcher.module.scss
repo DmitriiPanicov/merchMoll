@@ -1,0 +1,60 @@
+.switch {
+  :global {
+    .react-switch-bg {
+      background: rgb(186, 181, 181) !important;
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.13) inset !important;
+      height: 28px !important;
+      width: 52px !important;
+    }
+    .react-switch-handle {
+      background: #fff !important;
+      box-shadow: 6px 6px 36px 0px rgba(0, 0, 0, 0.06) !important;
+      box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.07) !important;
+      height: 24px !important;
+      left: 2px !important;
+      top: 2px !important;
+      transform: translateX(0) !important;
+      width: 24px !important;
+
+      div {
+        height: 14px !important;
+        left: 50% !important;
+        position: absolute !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        width: 14px !important;
+      }
+    }
+    .react-switch-bg {
+      div {
+        display: none;
+      }
+    }
+  }
+}
+
+.checkedValue {
+  :global {
+    .react-switch-bg {
+      background: var(--main-color) !important;
+    }
+
+    .react-switch-handle {
+      background: #fff !important;
+      box-shadow: 6px 6px 36px 0px rgba(0, 0, 0, 0.06) !important;
+      box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.07) !important;
+      height: 24px !important;
+      right: 2px !important;
+      top: 2px !important;
+      transform: translateX(24px) !important;
+      width: 24px !important;
+
+      div {
+        position: absolute !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+      }
+    }
+  }
+}

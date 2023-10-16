@@ -1,0 +1,55 @@
+.wrapper {
+  height: 37px;
+  margin-right: auto;
+  position: relative;
+}
+
+.btn {
+  align-items: center;
+  background: rgb(123, 195, 14);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  height: 100%;
+  margin-left: 5px;
+  padding: 0 10px;
+  width: 70px;
+
+  &:active {
+    background: rgb(143, 214, 36);
+  }
+}
+
+.title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.modal {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: fit-content;
+  left: 0%;
+  position: absolute;
+  transform: translate(0, 100%);
+  width: 160px;
+}
+
+.modal__content {
+  background-color: var(--table-head-bg-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+}

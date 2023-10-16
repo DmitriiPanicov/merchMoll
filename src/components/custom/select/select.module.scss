@@ -1,0 +1,22 @@
+.custom__select_wrapper {
+  position: relative;
+}
+
+.custom__floating_placeholer {
+  color: var(--main-text-color);
+  font-size: 10px;
+  font-weight: 600;
+  left: 9px;
+  opacity: 0;
+  position: absolute;
+  text-transform: none;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.active__floating_placeholder {
+  opacity: 1;
+  transform: translateY(-120%);
+  z-index: 10;
+}

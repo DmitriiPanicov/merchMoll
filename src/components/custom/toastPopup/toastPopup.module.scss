@@ -1,0 +1,35 @@
+.toast__wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 0;
+}
+
+.icon {
+  min-height: 18px;
+  min-width: 18px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.success__close_icon,
+.error__close_icon {
+  cursor: pointer;
+  min-height: 18px;
+  min-width: 18px;
+}
+
+.success__close_icon {
+  path {
+    fill: rgba(64, 191, 107, 1);
+  }
+}
+
+.error__close_icon {
+  path {
+    fill: rgba(235, 79, 86, 1);
+  }
+}
